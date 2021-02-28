@@ -1,0 +1,9 @@
+<h1>hihi</h1>
+<form method="POST" action="{% url 'post_create' %}">
+{% csrf_token %}
+{{ form }}
+<input type="submit" value="Create">
+</form>
+<h1>{{ userrr }} </h1>
+
+    
